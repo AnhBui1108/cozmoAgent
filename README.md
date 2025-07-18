@@ -2,8 +2,7 @@
 A voice-controlled Cozmo robot agent built with SmolAgents and Retico framework. Transform natural speech commands into executable robot behaviors!
 
 ## Overview 📋
-This module bridges speech recognition with Cozmo robot control using AI agents. Simply speak commands like "move forward 20cm" or "find a cube" and watch Cozmo execute them intelligently.
-
+This module bridges speech recognition with Cozmo robot control using AI agents. This module transforms voice commands into step-by-step execution plans using Cozmo behavior functions. It doesn't actually control the robot - instead, it creates GenericDictIU that you can pass to a DM or CozmoModule to make Cozmo execute the tasks
 ***Available Commands 🎯***
 - "drive_straight()"
 - "turn_in_place()"
